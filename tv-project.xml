@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project version="5.0.0" xmlns="http://www.terralib.org/schemas/qt/af"
+	xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se"
+	xmlns:te_da="http://www.terralib.org/schemas/dataaccess" xmlns:te_map="http://www.terralib.org/schemas/maptools"
+	xmlns:te_qt_af="http://www.terralib.org/schemas/common/af" xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+	xsd:schemaLocation="http://www.terralib.org/schemas/qt/af C:\Program%20Files\terralib5.0.0\bin\..\share/terralib/schemas/terralib/qt/af/project.xsd">
+	<Title>teste</Title>
+	<Author />
+	<te_da:DataSourceList xmlns:te_common="http://www.terralib.org/schemas/common">
+		<te_da:DataSource access_driver="OGR"
+			id="04c8e5ab-d254-4444-aacb-ead119ab76e3" type="OGR">
+			<te_da:Title>Grade_Landsat_prodes_pol.shp</te_da:Title>
+			<te_da:Description>A single vector file: Z:/dados/temp/Grade
+				Landsat/Grade_Landsat_prodes_pol.shp</te_da:Description>
+			<te_da:ConnectionInfo>
+				<te_common:Parameter>
+					<te_common:Name>URI</te_common:Name>
+					<te_common:Value>Z:/dados/temp/Grade
+						Landsat/Grade_Landsat_prodes_pol.shp</te_common:Value>
+				</te_common:Parameter>
+			</te_da:ConnectionInfo>
+		</te_da:DataSource>
+		<te_da:DataSource access_driver="OGR"
+			id="41f0085c-9aaf-4209-95d5-b2bdee59c882" type="OGR">
+			<te_da:Title>55mu2500gsd.shp</te_da:Title>
+			<te_da:Description>A single vector file:
+				Z:/dados/projetos/shapes/55mu2500gsd.shp</te_da:Description>
+			<te_da:ConnectionInfo>
+				<te_common:Parameter>
+					<te_common:Name>URI</te_common:Name>
+					<te_common:Value>Z:/dados/projetos/shapes/55mu2500gsd.shp
+					</te_common:Value>
+				</te_common:Parameter>
+			</te_da:ConnectionInfo>
+		</te_da:DataSource>
+		<te_da:DataSource access_driver="OGR"
+			id="4bdc3f46-b22e-498e-b1e7-effa03b930c6" type="OGR">
+			<te_da:Title>SP_TAUBATE_lin.shp</te_da:Title>
+			<te_da:Description>A single vector file:
+				Z:/dados/projetos/shapes/SP_TAUBATE_lin.shp</te_da:Description>
+			<te_da:ConnectionInfo>
+				<te_common:Parameter>
+					<te_common:Name>URI</te_common:Name>
+					<te_common:Value>Z:/dados/projetos/shapes/SP_TAUBATE_lin.shp
+					</te_common:Value>
+				</te_common:Parameter>
+			</te_da:ConnectionInfo>
+		</te_da:DataSource>
+		<te_da:DataSource access_driver="OGR"
+			id="55b261df-02f5-46b1-84a8-6bf01b145d7c" type="OGR">
+			<te_da:Title>Grade_Landsat_prodes_pol.shp</te_da:Title>
+			<te_da:Description>A single vector file: Z:/dados/temp/Grade
+				Landsat/Grade_Landsat_prodes_pol.shp</te_da:Description>
+			<te_da:ConnectionInfo>
+				<te_common:Parameter>
+					<te_common:Name>URI</te_common:Name>
+					<te_common:Value>Z:/dados/temp/Grade
+						Landsat/Grade_Landsat_prodes_pol.shp</te_common:Value>
+				</te_common:Parameter>
+			</te_da:ConnectionInfo>
+		</te_da:DataSource>
+		<te_da:DataSource access_driver="OGR"
+			id="c39976ab-3cb7-45f1-971f-68908a01a8a3" type="OGR">
+			<te_da:Title>Obras PAC_pt.shp</te_da:Title>
+			<te_da:Description>A single vector file:
+				Z:/dados/projetos/shapes/Obras PAC_pt.shp</te_da:Description>
+			<te_da:ConnectionInfo>
+				<te_common:Parameter>
+					<te_common:Name>URI</te_common:Name>
+					<te_common:Value>Z:/dados/projetos/shapes/Obras PAC_pt.shp
+					</te_common:Value>
+				</te_common:Parameter>
+			</te_da:ConnectionInfo>
+		</te_da:DataSource>
+	</te_da:DataSourceList>
+	<ComponentList />
+	<te_map:LayerList>
+		<te_map:DataSetLayer id="a90cf482-83a5-4b1e-ad8a-4abc74b9cf4b">
+			<te_map:Title>Obras PAC_pt</te_map:Title>
+			<te_map:Visible>NOT_VISIBLE</te_map:Visible>
+			<te_map:DataSetName>Obras PAC_pt</te_map:DataSetName>
+			<te_map:DataSourceId>c39976ab-3cb7-45f1-971f-68908a01a8a3
+			</te_map:DataSourceId>
+			<te_map:SRID>0</te_map:SRID>
+			<te_map:Extent llx="-72.705309999999997" lly="-32.048319999999997"
+				urx="-34.75" ury="-0.0024020000000000001" />
+			<te_map:RendererId>ABSTRACT_LAYER_RENDERER</te_map:RendererId>
+			<te_map:CompositionMode>0</te_map:CompositionMode>
+			<te_map:Style>
+				<se:FeatureTypeStyle version="1.1.0">
+					<se:Rule>
+						<se:PointSymbolizer version="1.1.0">
+							<se:Graphic>
+								<se:Mark>
+									<se:WellKnownName>circle</se:WellKnownName>
+									<se:Fill>
+										<se:SvgParameter name="fill">
+											<ogc:Literal>#9B2D7E</ogc:Literal>
+										</se:SvgParameter>
+										<se:SvgParameter name="fill-opacity">
+											<ogc:Literal>1.0</ogc:Literal>
+										</se:SvgParameter>
+									</se:Fill>
+									<se:Stroke>
+										<se:SvgParameter name="stroke">
+											<ogc:Literal>#000000</ogc:Literal>
+										</se:SvgParameter>
+										<se:SvgParameter name="stroke-width">
+											<ogc:Literal>1</ogc:Literal>
+										</se:SvgParameter>
+									</se:Stroke>
+								</se:Mark>
+								<se:Opacity>
+									<ogc:Literal>0.8</ogc:Literal>
+								</se:Opacity>
+								<se:Size>
+									<ogc:Literal>6</ogc:Literal>
+								</se:Size>
+							</se:Graphic>
+						</se:PointSymbolizer>
+					</se:Rule>
+				</se:FeatureTypeStyle>
+			</te_map:Style>
+		</te_map:DataSetLayer>
+		<te_map:DataSetLayer id="4266f047-ab6d-42f4-81de-fb7f1437a468">
+			<te_map:Title>55mu2500gsd</te_map:Title>
+			<te_map:Visible>NOT_VISIBLE</te_map:Visible>
+			<te_map:DataSetName>55mu2500gsd</te_map:DataSetName>
+			<te_map:DataSourceId>41f0085c-9aaf-4209-95d5-b2bdee59c882
+			</te_map:DataSourceId>
+			<te_map:SRID>4618</te_map:SRID>
+			<te_map:Extent llx="-73.990943646787002" lly="-33.751582746593087"
+				urx="-32.39219016381675" ury="5.2721556297160808" />
+			<te_map:RendererId>ABSTRACT_LAYER_RENDERER</te_map:RendererId>
+			<te_map:CompositionMode>0</te_map:CompositionMode>
+			<te_map:Style>
+				<se:FeatureTypeStyle version="1.1.0">
+					<se:Rule>
+						<se:PolygonSymbolizer version="1.1.0">
+							<se:Fill>
+								<se:SvgParameter name="fill">
+									<ogc:Literal>#6B9016</ogc:Literal>
+								</se:SvgParameter>
+								<se:SvgParameter name="fill-opacity">
+									<ogc:Literal>1.0</ogc:Literal>
+								</se:SvgParameter>
+							</se:Fill>
+							<se:Stroke>
+								<se:SvgParameter name="stroke">
+									<ogc:Literal>#000000</ogc:Literal>
+								</se:SvgParameter>
+								<se:SvgParameter name="stroke-width">
+									<ogc:Literal>1</ogc:Literal>
+								</se:SvgParameter>
+							</se:Stroke>
+						</se:PolygonSymbolizer>
+					</se:Rule>
+				</se:FeatureTypeStyle>
+			</te_map:Style>
+		</te_map:DataSetLayer>
+		<te_map:DataSetLayer id="548dfa6b-5f74-4e7c-8730-97307f1874ae">
+			<te_map:Title>SP_TAUBATE_lin</te_map:Title>
+			<te_map:Visible>VISIBLE</te_map:Visible>
+			<te_map:DataSetName>SP_TAUBATE_lin</te_map:DataSetName>
+			<te_map:DataSourceId>4bdc3f46-b22e-498e-b1e7-effa03b930c6
+			</te_map:DataSourceId>
+			<te_map:SRID>0</te_map:SRID>
+			<te_map:Extent llx="-45.719178958483297" lly="-23.221528949470599"
+				urx="-45.2929638870053" ury="-22.962870712563099" />
+			<te_map:RendererId>ABSTRACT_LAYER_RENDERER</te_map:RendererId>
+			<te_map:CompositionMode>0</te_map:CompositionMode>
+			<te_map:Style>
+				<se:FeatureTypeStyle version="1.1.0">
+					<se:Rule>
+						<se:LineSymbolizer version="1.1.0">
+							<se:Stroke>
+								<se:SvgParameter name="stroke">
+									<ogc:Literal>#141ed8</ogc:Literal>
+								</se:SvgParameter>
+								<se:SvgParameter name="stroke-opacity">
+									<ogc:Literal>0.86</ogc:Literal>
+								</se:SvgParameter>
+								<se:SvgParameter name="stroke-width">
+									<ogc:Literal>1</ogc:Literal>
+								</se:SvgParameter>
+							</se:Stroke>
+						</se:LineSymbolizer>
+					</se:Rule>
+				</se:FeatureTypeStyle>
+			</te_map:Style>
+		</te_map:DataSetLayer>
+	</te_map:LayerList>
+</Project>

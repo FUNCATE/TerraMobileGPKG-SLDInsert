@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.1.0"
+	xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
+	xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+	xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NamedLayer>
+		<UserStyle>
+			<se:FeatureTypeStyle version="1.1.0">
+				<se:Rule>
+					<se:PointSymbolizer version="1.1.0">
+						<se:Graphic>
+							<se:Mark>
+								<se:WellKnownName>circle</se:WellKnownName>
+								<se:Fill>
+									<se:SvgParameter name="fill">
+										<ogc:Literal>#9B2D7E</ogc:Literal>
+									</se:SvgParameter>
+									<se:SvgParameter name="fill-opacity">
+										<ogc:Literal>1.0</ogc:Literal>
+									</se:SvgParameter>
+								</se:Fill>
+								<se:Stroke>
+									<se:SvgParameter name="stroke">
+										<ogc:Literal>#000000</ogc:Literal>
+									</se:SvgParameter>
+									<se:SvgParameter name="stroke-width">
+										<ogc:Literal>1</ogc:Literal>
+									</se:SvgParameter>
+								</se:Stroke>
+							</se:Mark>
+							<se:Opacity>
+								<ogc:Literal>0.8</ogc:Literal>
+							</se:Opacity>
+							<se:Size>
+								<ogc:Literal>6</ogc:Literal>
+							</se:Size>
+						</se:Graphic>
+					</se:PointSymbolizer>
+				</se:Rule>
+			</se:FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>
