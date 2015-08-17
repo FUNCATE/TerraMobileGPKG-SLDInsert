@@ -17,7 +17,7 @@ public class ImportSLDToGPKG {
 
 	public static void main(String[] args) throws ClassNotFoundException, IOException {
 
-		String filePath = "/dados/temp/terramobile-gpkg/inpe-boeing-full.gpkg";
+		String filePath = "/dados/temp/terramobile-gpkg/inpe-boeing-small.gpkg";
 		
 		ImportSLDToGPKG.createStyleTable(filePath);
 		ArrayList<Map<String, String>> layers = ImportSLDToGPKG.getLayers(filePath);
@@ -189,7 +189,7 @@ public class ImportSLDToGPKG {
 	}
 	private static String getPointSLD() throws IOException
 	{
-		return ImportSLDToGPKG.readFile(new File("point-sld.xml"));
+		return ImportSLDToGPKG.readFile(new File("point-sld-inline.xml"));
 	}
 	private static String getLineSLD() throws IOException
 	{
